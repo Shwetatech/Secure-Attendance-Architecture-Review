@@ -1,2 +1,2 @@
 # Secure-Attendance-Architecture-Review
-Security-focused architecture review of an attendance management system, covering system design, authentication, authorization, data protection, threat modeling, and security recommendations.
+Security architecture review of a C#/.NET attendance and workforce management system, covering STRIDE threat modeling, trust boundaries, data protection, access controls, and audit logging.
