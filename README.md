@@ -1,4 +1,4 @@
-# Secure Attendance System — Architecture Security Review
+# Secure Attendance System:- Architecture Security Review
 
 A structured security review of an Attendance & Workforce Management System built using **C#, .NET, SQL Server, and REST APIs**.
 
