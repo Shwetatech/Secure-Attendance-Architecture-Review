@@ -1,0 +1,47 @@
+## Recommended Security Controls
+
+Detailed recommendations are documented in recommended-controls/.
+
+### Authentication
+
+- Enforce multifactor authentication for privileged accounts.
+
+- Use secure token-based authentication with appropriate expiry and validation.
+
+- Authenticate devices using securely managed credentials or cryptographic identities.
+
+- Protect credentials and secrets from source control.
+
+### Authorization
+
+- Implement role-based access control (RBAC).
+
+- Apply least privilege to workforce-management modules.
+
+- Enforce server-side authorization for every sensitive operation.
+
+- Restrict access to employee records according to business need.
+
+### Encryption and Data Protection
+
+- Enforce modern TLS for API and service communications.
+
+- Encrypt sensitive data at rest where appropriate.
+
+- Store passwords using a suitable password-hashing algorithm, such as Argon2id, scrypt, or PBKDF2.
+
+- Protect cryptographic keys and rotate them according to policy.
+
+- Validate and minimize the collection and retention of biometric and employee data.
+
+### Audit Trails
+
+- Record authentication failures, privilege changes, and attendance-record modifications.
+
+- Restrict access to security logs and protect their integrity.
+
+- Use centralized logging and monitoring.
+
+- Establish appropriate retention and alerting policies.
+
+- Avoid recording passwords, access tokens, or unnecessary sensitive personal data.
