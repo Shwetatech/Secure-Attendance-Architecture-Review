@@ -1,0 +1,26 @@
+--------------------------------------------------
+External Network
+--------------------------------------------------
+Employee
+Attendance Device
+HR/Admin Users
+--------------------------------------------------
+        ||
+        || TLS Encrypted Communication
+        \/
+--------------------------------------------------
+Application Network
+--------------------------------------------------
+Attendance API
+Authentication Service
+Attendance Processing Engine
+Audit Logging Service
+--------------------------------------------------
+        ||
+        || Secure SQL Connection
+        \/
+--------------------------------------------------
+Database Network
+--------------------------------------------------
+SQL Database
+--------------------------------------------------
