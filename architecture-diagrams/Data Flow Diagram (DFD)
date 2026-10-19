@@ -1,0 +1,55 @@
++------------------+
+|    Employee      |
++------------------+
+         |
+         | Attendance Request
+         v
++------------------+
+| Attendance Device|
+| (Biometric/Card) |
++------------------+
+         |
+         | Attendance Data
+         v
++------------------+
+|  Attendance API  |
+|    (.NET)        |
++------------------+
+         |
+         +----------------------+
+         |                      |
+         | Validate User        | Authentication
+         v                      v
++------------------+    +------------------+
+| Authentication   |    | Audit Logging    |
+| Service          |    | Service          |
++------------------+    +------------------+
+         |                      |
+         | Valid User           | Log Events
+         v                      v
++-----------------------------------------+
+| Attendance Processing Engine            |
+| (.NET Business Logic Layer)             |
++-----------------------------------------+
+         |
+         | Process Attendance
+         v
++------------------+
+| SQL Database     |
+| Employees        |
+| Attendance       |
+| Workforce Data   |
++------------------+
+         ^
+         |
+         | Query/Update
+         |
++------------------+
+| HR/Admin Portal  |
++------------------+
+         |
+         | Reports, User Management
+         v
++------------------+
+| HR/Admin Users   |
++------------------+
