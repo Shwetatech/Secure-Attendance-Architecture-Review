@@ -15,3 +15,7 @@ These diagrams illustrate component interactions:
 ' - Sensitive data movement
 
 ' - Authentication and authorization checkpoints
+
+## High-Level System Architecture
+
+![Secure Attendance System Architecture](architecture-diagrams/high-level-architecture.png)
